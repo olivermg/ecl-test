@@ -1,0 +1,10 @@
+*~
+*.swp
+
+*.fas
+*.o
+*.data
+test.h
+test.c
+test
+
