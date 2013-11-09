@@ -1,3 +1,5 @@
+(in-package :cl-user)
+
 (export '(lispmain))
 
 (defun blawurst (a b)
