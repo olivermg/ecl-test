@@ -5,6 +5,6 @@
 (defun blawurst (a b)
   (+ a b 1337))
 
-(defun lispmain (&rest args)
+(defun lispmain ()
   (blawurst 315 555))
 

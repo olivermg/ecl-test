@@ -1,7 +1,7 @@
 ECL = ecl
 CC = clang
-CFLAGS = -I/usr/local/include
-LDFLAGS = -L/usr/local/lib
+CFLAGS = -g -I/usr/local/include
+LDFLAGS = -g -L/usr/local/lib
 LIBS = -lecl
 
 test: test.o main.o
@@ -19,4 +19,5 @@ main.o: main.c test.h
 clean:
 	rm -vf test.c test.h test.data test.fas test.o test
 	rm -vf main.o
+	rm -vf *.core
 
