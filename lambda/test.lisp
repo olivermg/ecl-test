@@ -1,4 +1,6 @@
 
+(export '(fib main))
+
 (defun fib (fn)
     (fn 1 2))
 
